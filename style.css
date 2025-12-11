@@ -21,5 +21,20 @@ body{
 }
 
 .logo{
-    width: 45px;
+    width: 50px;
+}
+
+/*Centro: navegacion*/
+.header-nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/*Efecto hover en el texto*/
+.header-nav a:hover{
+    color: #00754a; /*Verde Starbucks*/
 }
