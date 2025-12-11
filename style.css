@@ -26,8 +26,21 @@ body{
     z-index: 1000;
 }
 
+/*Lado izquierdo del header*/
+.header-nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo-link{
+    display: flex;
+    align-items: center;
+}
+
 .logo{
     width: 50px;
+    height: 50px;
 }
 
 /*Centro: navegacion*/
@@ -43,4 +56,19 @@ body{
 /*Efecto hover en el texto*/
 .header-nav a:hover{
     color: #00754a; /*Verde Starbucks*/
+}
+
+/*Lado derecho del header*/
+.header-derecha{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
 }
