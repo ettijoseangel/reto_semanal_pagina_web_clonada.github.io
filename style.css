@@ -19,12 +19,12 @@ body{
 .header{
     /*Flexbox agregado*/
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 15px 40px;
+    padding-left: 16px;
+    padding-right: 16px;
     border-bottom: 1px solid #e5e5e5;
     background-color: #ffffff;
-
     /*Posicion fija (sticky)*/
     position: sticky;
     top: 0;
@@ -35,7 +35,8 @@ body{
 .header-nav{
     display: flex;
     align-items: center;
-    gap: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .logo-link{
